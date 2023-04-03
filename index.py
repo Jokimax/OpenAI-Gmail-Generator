@@ -4,7 +4,7 @@ import tiktoken
 
 app = Flask(__name__)
 
-openai.api_key = "[OPEN AI API]"
+openai.api_key = "[OPEN AI API KEY]"
 
 @app.get("/")
 def homepage():
