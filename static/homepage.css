@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(black, #7a338a);
+    margin: 0;
+    position: relative;
+    height: 100vh;
+}
+form{
+    border-radius: 1vh;
+    border: solid 8px #48d411;
+    width: 40%;
+    background: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#emailPrompt{
+    text-align: center;
+    width: 60%;
+    height: 2.5vh;
+    margin-top: 0.2vh;
+    background: gray;
+    color: white;
+    font-size: 2.4vh;
+}
+#generate{
+    border: solid 5px black;
+    border-radius: 2vh;
+    font-family: "Lucida Console";
+    font-size: 3vh;
+    height: 4vh;
+    margin-top: 0.3vh;
+    background: purple;
+}
+::placeholder {
+    color: #c7c7c7;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+   color: #c7c7c7;
+} 
+::-ms-input-placeholder {
+   color: #c7c7c7;
+}

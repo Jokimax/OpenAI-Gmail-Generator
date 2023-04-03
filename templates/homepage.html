@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="{{url_for('static', filename='homepage.css')}}"></link>
+<script type="text/javascript" src="{{url_for('static', filename='homepage.js')}}"></script>
+</head>
+<body>
+    <form onsubmit="generateEmail();return false">
+        <input type="text" id="emailPrompt" placeholder="Subject"><br>
+        <input type="submit" id="generate" value="Generate">
+        <h1 id="message">&#8203;</h1>
+    </form>
+</body>
+</html>
