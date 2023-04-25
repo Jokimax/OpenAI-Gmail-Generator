@@ -19,5 +19,5 @@ async function generateEmail(){
         throw new Error('');
       });
     document.getElementById("message").innerHTML = "&#8203;"
-    window.open('mailto:jonaxthedreadlord@gmail.com?subject='+response.subject+'&body='+response.text)
+    window.open('mailto:?subject='+response.subject+'&body='+response.text)
 }
